@@ -9,6 +9,9 @@ const OurTeam = () => {
     return (
         <Fragment>
             <div className="container">
+                <div className="row justify-content-center mt-2">
+                <h1><strong>Development Team</strong></h1>
+                </div>
                 <div className="row pt-4">
                     <div className="col-md-4 col-sm-6">
                         <div className="our-team">
@@ -33,7 +36,7 @@ const OurTeam = () => {
                                 <img style={{ maxHeight: "350px" }} src={kartik} />
                             </div>
                             <div className="team-content">
-                                <h3 className="name">Katik Sharma</h3>
+                                <h3 className="name">Kartik Sharma</h3>
                                 <span className="post">Full Stack Developer</span>
                             </div>
                             <ul className="social">
