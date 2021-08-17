@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Movies ticket booking application",
   "main": "index.js",
+  "engines": {
+    "node": "12.22.2"
+  },
   "scripts": {
     "start": "nodemon index.js",
     "script":"nodemon index.js",

@@ -75,7 +75,7 @@ const History = useHistory()
             {movies.map(
               Mapmovie=>
               (<Fragment>
-                   <div className="col-3">
+                   <div className="col col-md-3">
                       <div className="card movie-image my-3" style={{backgroundImage: `url(${Mapmovie.posterUrl})`}}  onClick={()=>SearchMovie(Mapmovie.movieName)}>
                           <div className="card-body"></div>
                           <div className="card-footer">
